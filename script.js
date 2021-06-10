@@ -16,7 +16,7 @@ function getRate() {
     document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
 }
 
-function validateAmount() {
+function Amount() {
     var principal = document.getElementById("principal").value;
     var biggerThanZero = parseInt(principal) > 0;
     if (!biggerThanZero) {
